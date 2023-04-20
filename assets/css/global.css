@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-body);
+}
+
+body,
+input,
+textarea,
+label,
+p,
+a {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.goal {
+  background: #fef0e7;
+}
+
+.diet {
+  background: #eceaff;
+}
+
+.setting {
+  background: #e5f8ff;
+}
