@@ -178,6 +178,7 @@
   align-items: center;
   color: var(--white);
 }
+
 .content-chart .chart-one {
   background: linear-gradient(180deg, #6d63ff 0%, #3b32c0 100%);
   width: 100%;
@@ -221,6 +222,7 @@
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+
 .content-chart .chart-two .water .content {
   background: #ff9aba;
   border-radius: 40px;
@@ -325,6 +327,16 @@
   font-size: 0.875rem;
 }
 
+@media (max-width: 760px) {
+  .container-main .content-main .sidebar {
+    display: none;
+  }
+
+  .container-main .content-main {
+    width: 100%;
+  }
+}
+
 /* ======================================================================= */
 /* ASIDE */
 .container-main .aside-navigate {
@@ -334,6 +346,51 @@
   right: 0;
   width: 22%;
   height: 100vh;
+}
+
+.header-mobile,
+.footer-mobile {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .container-main .aside-navigate {
+    width: 80%;
+    display: none;
+  }
+
+  .header-mobile {
+    display: block;
+  }
+
+  .header-mobile .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .footer-mobile {
+    background: var(--bg-primary);
+    display: block !important;
+    padding: 1rem;
+
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+    z-index: 8888;
+  }
+
+  .footer-mobile .container nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-mobile .container nav img {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 .container-main .aside-navigate header {
