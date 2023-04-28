@@ -5,10 +5,13 @@
   z-index: 9999;
 
   top: 0;
+  bottom: 0;
   position: absolute;
 
   display: flex;
   align-items: center;
+
+  position: fixed;
 }
 .spinner {
   margin: 100px auto;

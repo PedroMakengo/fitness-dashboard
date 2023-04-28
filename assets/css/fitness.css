@@ -386,6 +386,7 @@
 
   .header-mobile {
     display: block;
+    padding-block: 1rem;
   }
 
   .header-mobile .container {
@@ -393,6 +394,9 @@
     justify-content: space-between;
     margin: 0 auto;
     width: 90%;
+  }
+  .header-mobile .icon-logo {
+    font-family: Roboto, sans-serif;
   }
 
   .footer-mobile {
