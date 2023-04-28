@@ -247,6 +247,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  transform: translateY(2rem) !important;
 }
 
 .content-cards .card {
@@ -334,7 +335,7 @@
 
   .container-main .content-main {
     width: 100%;
-    padding-bottom: 90rem;
+    padding-bottom: 92rem;
   }
 
   .container-main .content-main header {
@@ -395,6 +396,7 @@
     margin: 0 auto;
     width: 90%;
   }
+
   .header-mobile .icon-logo {
     font-family: Roboto, sans-serif;
   }
